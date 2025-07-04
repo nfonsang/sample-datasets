@@ -72,3 +72,36 @@ children	Number of children/dependents covered by the insurance.
 smoker	Smoking status (yes or no).
 region	Residential region in the US (northeast, northwest, southeast, southwest).
 charges	Individual medical insurance charges billed by the insurer (in USD).
+
+
+📁 Dataset: Loan Application Data ([loan_data.csv](./loan_data.csv))
+This dataset provides a snapshot of loan applicants, including their financial status, credit history, and loan details. It’s particularly useful for binary classification tasks such as credit risk modeling — predicting whether a loan will be classified as good or bad.
+
+There are 1,000+ records in total, and the dataset includes the following columns:
+
+Column Name	Description
+funded_amnt	Amount of money funded to the borrower (in USD).
+term	Loan term length (term_36 or term_60 months).
+int_rate	Interest rate on the loan (in %).
+sub_grade	Loan subgrade, reflecting credit risk (e.g., A1, C4, D1).
+addr_state	US state where the borrower resides.
+verification_status	Whether the borrower's income was verified (Verified, Source_Verified, or Not_Verified).
+annual_inc	Annual income of the borrower (in USD).
+emp_length	Length of employment (e.g., emp_5, emp_ge_10, emp_lt_1, emp_unk).
+delinq_2yrs	Number of delinquencies in the past 2 years.
+inq_last_6mths	Number of credit inquiries in the past 6 months.
+revol_util	Revolving line utilization rate (percentage of credit used).
+acc_now_delinq	Number of accounts currently delinquent.
+open_il_6m	Number of installment accounts opened in the last 6 months.
+open_il_12m	Number of installment accounts opened in the last 12 months.
+open_il_24m	Number of installment accounts opened in the last 24 months.
+total_bal_il	Total current balance on all installment accounts.
+all_util	Ratio of total balances to total credit limits across all credit lines.
+inq_fi	Number of finance-related inquiries.
+inq_last_12m	Number of credit inquiries in the past 12 months.
+delinq_amnt	Total amount delinquent (in USD).
+num_il_tl	Number of installment accounts.
+total_il_high_credit_limit	Total high credit/credit limit for all installment accounts.
+Class	Loan status label (good or bad).
+
+
