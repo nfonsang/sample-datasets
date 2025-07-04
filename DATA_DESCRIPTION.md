@@ -23,7 +23,7 @@ There are 1,000 records, and the dataset includes the following columns:
 
 
 ### 📁 Dataset: Customer Churn Data 
-This synthetic dataset simulates customer profiles and banking activity, commonly used for modeling customer churn—predicting whether a customer will leave or stay with the bank.
+This churn dataset captures customer profiles and banking activity, commonly used for modeling customer churn, predicting whether a customer will leave or stay with the bank.
 
 It supports supervised classification tasks, with the target variable: Exited, where:
 
