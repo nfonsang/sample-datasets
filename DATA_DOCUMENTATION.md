@@ -1,7 +1,7 @@
 # Documentation of Datasets
 
 ## 📁 Dataset: Customer Satisfaction Data
-This synthetic customer satisfaction dataset ([customer_satisfaction_data_large.csv](./customer_satisfaction_data_large.csv)) represents customer interactions and outcomes across various retail stores. It includes transaction details, product categories, employee experience, and customer satisfaction scores.
+This synthetic customer satisfaction dataset ([customer_satisfaction_data.csv](./customer_satisfaction_data.csv)) represents customer interactions and outcomes across various retail stores. It includes transaction details, product categories, employee experience, and customer satisfaction scores.
 
 The dataset is ideal for demonstrating supervised learning techniques, particularly for a regression task with the target variable: `Satisfaction`.
 
