@@ -1,4 +1,4 @@
-#Dataset Description
+# Dataset Description
 
 ### 📁 Dataset: Customer Satisfaction Data
 This synthetic dataset simulates customer interactions and outcomes across various retail stores. It includes transaction details, product categories, employee experience, and customer satisfaction scores.
@@ -55,3 +55,20 @@ Each record represents an individual customer, with associated demographic and b
 | `EstimatedSalary` | Estimated yearly salary of the customer.                                  |
 | `Exited`          | Target variable: whether the customer churned (`1`) or remained (`0`).    |
 
+
+📁 Dataset: Insurance Charges Data ([churn_data_small.csv](./churn_data_small.csv))
+
+This dataset contains information on individuals’ demographics and health-related attributes, commonly used to estimate medical insurance charges. It includes personal details such as age, sex, body mass index (BMI), number of children, smoking status, residential region, and the insurance charges incurred.
+
+This dataset is well-suited for regression-based supervised learning tasks, with the target variable: charges.
+
+There are 1338 records in total, and the dataset includes the following columns:
+
+Column Name	Description
+age	Age of the individual (in years).
+sex	Gender of the individual (male or female).
+bmi	Body Mass Index (BMI), a measure of body fat based on height and weight.
+children	Number of children/dependents covered by the insurance.
+smoker	Smoking status (yes or no).
+region	Residential region in the US (northeast, northwest, southeast, southwest).
+charges	Individual medical insurance charges billed by the insurer (in USD).
