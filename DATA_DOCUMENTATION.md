@@ -1,4 +1,4 @@
-# Dataset Description
+# Documentation of Datasets
 
 ### 📁 Dataset: Customer Satisfaction Data
 This synthetic dataset simulates customer interactions and outcomes across various retail stores. It includes transaction details, product categories, employee experience, and customer satisfaction scores.
@@ -77,7 +77,7 @@ charges	Individual medical insurance charges billed by the insurer (in USD).
 📁 Dataset: Loan Application Data ([loan_data.csv](./loan_data.csv))
 This dataset provides a snapshot of loan applicants, including their financial status, credit history, and loan details. It’s particularly useful for binary classification tasks such as credit risk modeling — predicting whether a loan will be classified as good or bad.
 
-There are 1,000+ records in total, and the dataset includes the following columns:
+There are 9857 records in total, and the dataset includes the following columns:
 
 Column Name	Description
 funded_amnt	Amount of money funded to the borrower (in USD).
@@ -104,4 +104,18 @@ num_il_tl	Number of installment accounts.
 total_il_high_credit_limit	Total high credit/credit limit for all installment accounts.
 Class	Loan status label (good or bad).
 
+📁 Dataset: Wage and Employment Data
+This dataset contains individual-level employment information, including wages, educational background, work experience, and demographic variables. It is well-suited for regression tasks (e.g., predicting wage) and for analyzing the relationships between education, experience, and earnings.
 
+([wage_data.csv](./wage_data.csv))
+
+There are 28,155 records in total, and the dataset includes the following columns:
+
+Column Name	Description
+wage	Weekly wage of the individual (in USD).
+education	Years of formal education completed.
+experience	Number of years of work experience.
+ethnicity	Ethnic group of the individual (e.g., cauc, afam, hisp, other).
+smsa	Whether the individual lives in a Standard Metropolitan Statistical Area (yes or no).
+region	Region of residence in the U.S. (e.g., northeast, south, etc.).
+parttime	Whether the job is part-time (yes or no).
