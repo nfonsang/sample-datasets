@@ -27,14 +27,15 @@ This churn dataset captures customer profiles and banking activity, commonly use
 
 It supports supervised classification tasks, with the target variable: Exited, where:
 
-1 = the customer churned (left the bank)
+- 1 = the customer churned (left the bank)
 
-0 = the customer stayed
+- 0 = the customer stayed
 
- Available Versions
-Large Churn Dataset ([churn_data_large.csv](./churn_data_large.csv)): 165,034 records: 
+**Available Versions**
 
-Small Churn Dataset ([churn_data_small.csv](./churn_data_small.csv)): 10,000 records, randomly sampled from the large churn dataset
+- Large Churn Dataset ([churn_data_large.csv](./churn_data_large.csv)): 165,034 records: 
+
+- Small Churn Dataset ([churn_data_small.csv](./churn_data_small.csv)): 10,000 records, randomly sampled from the large churn dataset
 
 Each record represents an individual customer, with associated demographic and behavioral features.
 
@@ -76,7 +77,9 @@ There are 1338 records in total, and the dataset includes the following columns:
 
 
 ## 📁 Dataset: Loan Application Data ([loan_data.csv](./loan_data.csv))
-This dataset provides a snapshot of loan applicants, including their financial status, credit history, and loan details. It’s particularly useful for binary classification tasks such as credit risk modeling — predicting whether a loan will be classified as good or bad.
+This dataset provides a snapshot of loan applicants, including their financial status, credit history, and loan details. 
+
+It’s particularly useful for binary classification tasks such as credit risk modeling — predicting whether a loan will be classified as good or bad.
 
 There are 9857 records in total, and the dataset includes the following columns:
 
@@ -108,7 +111,9 @@ There are 9857 records in total, and the dataset includes the following columns:
 
 
 ## 📁 Dataset: Wage and Employment Data
-This dataset ([wage_data.csv](./wage_data.csv))contains individual-level employment information, including wages, educational background, work experience, and demographic variables. It is well-suited for regression tasks (e.g., predicting wage) and for analyzing the relationships between education, experience, and earnings.
+This dataset ([wage_data.csv](./wage_data.csv))contains individual-level employment information, including wages, educational background, work experience, and demographic variables. 
+
+It is well-suited for regression tasks (e.g., predicting wage) and for analyzing the relationships between education, experience, and earnings.
 
 There are 28,155 records in total, and the dataset includes the following columns:
 
