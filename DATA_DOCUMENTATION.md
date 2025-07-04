@@ -1,7 +1,7 @@
 # Documentation of Datasets
 
-### 📁 Dataset: Customer Satisfaction Data
-This synthetic dataset simulates customer interactions and outcomes across various retail stores. It includes transaction details, product categories, employee experience, and customer satisfaction scores.
+## 📁 Dataset: Customer Satisfaction Data
+This synthetic customer satisfaction dataset ([customer_satisfaction_data_large.csv](./customer_satisfaction_data_large.csv)) represents customer interactions and outcomes across various retail stores. It includes transaction details, product categories, employee experience, and customer satisfaction scores.
 
 The dataset is ideal for demonstrating supervised learning techniques, particularly for a regression task with the target variable: `Satisfaction`.
 
@@ -22,7 +22,7 @@ There are 1,000 records, and the dataset includes the following columns:
 | `Satisfaction` | Customer satisfaction score (scale from 1.0 to 10.0).                      |
 
 
-### 📁 Dataset: Customer Churn Data 
+## 📁 Dataset: Customer Churn Data 
 This churn dataset captures customer profiles and banking activity, commonly used for modeling customer churn, predicting whether a customer will leave or stay with the bank.
 
 It supports supervised classification tasks, with the target variable: Exited, where:
@@ -56,9 +56,9 @@ Each record represents an individual customer, with associated demographic and b
 | `Exited`          | Target variable: whether the customer churned (`1`) or remained (`0`).    |
 
 
-📁 Dataset: Insurance Charges Data ([insurance_data.csv](./insurance_data.csv))
+## 📁 Dataset: Insurance Charges Data 
 
-This dataset contains information on individuals’ demographics and health-related attributes, commonly used to estimate medical insurance charges. It includes personal details such as age, sex, body mass index (BMI), number of children, smoking status, residential region, and the insurance charges incurred.
+This dataset ([insurance_data.csv](./insurance_data.csv)) contains information on individuals’ demographics and health-related attributes, commonly used to estimate medical insurance charges. It includes personal details such as age, sex, body mass index (BMI), number of children, smoking status, residential region, and the insurance charges incurred.
 
 This dataset is well-suited for regression-based supervised learning tasks, with the target variable: charges.
 
@@ -75,7 +75,7 @@ There are 1338 records in total, and the dataset includes the following columns:
 | `charges`   | Individual medical insurance charges billed by the insurer (in USD).        |
 
 
-📁 Dataset: Loan Application Data ([loan_data.csv](./loan_data.csv))
+## 📁 Dataset: Loan Application Data ([loan_data.csv](./loan_data.csv))
 This dataset provides a snapshot of loan applicants, including their financial status, credit history, and loan details. It’s particularly useful for binary classification tasks such as credit risk modeling — predicting whether a loan will be classified as good or bad.
 
 There are 9857 records in total, and the dataset includes the following columns:
@@ -107,10 +107,8 @@ There are 9857 records in total, and the dataset includes the following columns:
 | `Class`                     | Loan status label (`good` or `bad`).                                       |
 
 
-📁 Dataset: Wage and Employment Data
-This dataset contains individual-level employment information, including wages, educational background, work experience, and demographic variables. It is well-suited for regression tasks (e.g., predicting wage) and for analyzing the relationships between education, experience, and earnings.
-
-([wage_data.csv](./wage_data.csv))
+## 📁 Dataset: Wage and Employment Data
+This dataset ([wage_data.csv](./wage_data.csv))contains individual-level employment information, including wages, educational background, work experience, and demographic variables. It is well-suited for regression tasks (e.g., predicting wage) and for analyzing the relationships between education, experience, and earnings.
 
 There are 28,155 records in total, and the dataset includes the following columns:
 
