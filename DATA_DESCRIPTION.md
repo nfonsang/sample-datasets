@@ -56,7 +56,7 @@ Each record represents an individual customer, with associated demographic and b
 | `Exited`          | Target variable: whether the customer churned (`1`) or remained (`0`).    |
 
 
-📁 Dataset: Insurance Charges Data ([churn_data_small.csv](./churn_data_small.csv))
+📁 Dataset: Insurance Charges Data ([insurance_data.csv](./insurance_data.csv))
 
 This dataset contains information on individuals’ demographics and health-related attributes, commonly used to estimate medical insurance charges. It includes personal details such as age, sex, body mass index (BMI), number of children, smoking status, residential region, and the insurance charges incurred.
 
